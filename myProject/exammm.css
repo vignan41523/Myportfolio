@@ -6,32 +6,21 @@ html {
 
 
 body {
-
     margin: 0;
-
     padding: 0;
-
     background-color: #484b8e;
 }
 
 
 
 .navbargroup {
-
     background-color: #171761;
-
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
-
     padding: 0 15px;
-
     height: 80px;
-
     position: relative;
-
     z-index: 10;
 }
 
@@ -39,120 +28,87 @@ body {
 .title a {
 
     color: #f6e553;
-
     font-family: "Changa One", sans-serif;
-
     font-size: larger;
-
     text-decoration: none;
 }
 
 
 .title a:hover {
-
     color: #f6e553;
 }
 
 
 .ugly {
-
     color: #B8B8B8;
-
     font-family: "Archivo Black", sans-serif;
-
     font-weight: 400;
 }
 
 
 .ugly h4 {
-
     margin: 0;
 }
 
 
 .navlinks {
-
     display: flex;
-
     gap: 60px;
-
     align-items: center;
-
     font-size: larger;
-
     font-family: "Cormorant Garamond", serif;
-
     font-weight: 600;
 }
 
 
 .Home a {
-
     color: white;
-
     text-decoration: none;
-
     font-weight: bold;
 }
 
 
 .Home a:hover {
-
     color: #A5B4FC;
 }
 
 
 
 .home {
-
     min-height: 100vh;
-
     scroll-margin-top: 80px;
 }
 
 
 .intro {
-
     display: flex;
-
     justify-content: space-around;
-
     align-items: center;
-
     color: #D9DAFF;
 }
 
 
 .intro h1 {
-
     font-family: "Bebas Neue", sans-serif;
-
     font-size: 170px;
-
     margin: 0;
 }
 
 
 .into {
-
     color: #f6e553;
 }
 
 
 .intro h1:hover {
-
     color: rgb(182, 190, 57);
 }
 
 
 .disgn {
-
     font-family: "Allura", cursive;
-
     text-align: center;
-
     color: #A5B4FC;
-
     font-size: 40px;
 }
 
@@ -163,37 +119,23 @@ body {
 .About {
 
     display: flex;
-
     flex-direction: column;
-
     margin: 0;
-
     padding: 100px 10%;
-
     width: 100%;
-
     min-height: 100vh;
-
     box-sizing: border-box;
-
     text-align: left;
-
     background-color: #4c53cf;
-
     scroll-margin-top: 80px;
 }
 
 
 .About h1 {
-
     font-family: "Archivo Black", sans-serif;
-
     color: #ffffff;
-
     line-height: 1.5;
-
     margin: 0;
-
     font-size: 70px;
 }
 
@@ -201,25 +143,17 @@ body {
 .process {
 
     font-family: "Cormorant Garamond", serif;
-
     color: #B8B8B8;
-
     letter-spacing: 4px;
-
     font-size: 30px;
-
     margin-bottom: 20px;
 }
 
 
 .myself {
-
     color: #A5B4FC;
-
     font-weight: 700;
-
     font-size: 20px;
-
     margin-top: 20px;
 }
 
@@ -228,25 +162,17 @@ body {
 
 
 .service-section {
-
     background-color: #484b8e;
-
     padding: 110px 10% 120px;
-
     box-sizing: border-box;
 }
 
 
 .service-title {
-
     color: #D9DAFF;
-
     font-family: "Cormorant Garamond", serif;
-
     letter-spacing: 4px;
-
     font-size: 15px;
-
     margin: 0 0 35px 0;
 }
 
@@ -607,7 +533,7 @@ footer {
     }
 
 
-    /* FOOTER */
+  
 
     footer {
         min-height: auto;
