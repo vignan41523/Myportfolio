@@ -1,0 +1,620 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #484b8e;
+}
+
+
+
+.navbargroup {
+
+    background-color: #171761;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 15px;
+
+    height: 80px;
+
+    position: relative;
+
+    z-index: 10;
+}
+
+
+.title a {
+
+    color: #f6e553;
+
+    font-family: "Changa One", sans-serif;
+
+    font-size: larger;
+
+    text-decoration: none;
+}
+
+
+.title a:hover {
+
+    color: #f6e553;
+}
+
+
+.ugly {
+
+    color: #B8B8B8;
+
+    font-family: "Archivo Black", sans-serif;
+
+    font-weight: 400;
+}
+
+
+.ugly h4 {
+
+    margin: 0;
+}
+
+
+.navlinks {
+
+    display: flex;
+
+    gap: 60px;
+
+    align-items: center;
+
+    font-size: larger;
+
+    font-family: "Cormorant Garamond", serif;
+
+    font-weight: 600;
+}
+
+
+.Home a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+.Home a:hover {
+
+    color: #A5B4FC;
+}
+
+
+
+.home {
+
+    min-height: 100vh;
+
+    scroll-margin-top: 80px;
+}
+
+
+.intro {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    color: #D9DAFF;
+}
+
+
+.intro h1 {
+
+    font-family: "Bebas Neue", sans-serif;
+
+    font-size: 170px;
+
+    margin: 0;
+}
+
+
+.into {
+
+    color: #f6e553;
+}
+
+
+.intro h1:hover {
+
+    color: rgb(182, 190, 57);
+}
+
+
+.disgn {
+
+    font-family: "Allura", cursive;
+
+    text-align: center;
+
+    color: #A5B4FC;
+
+    font-size: 40px;
+}
+
+
+
+
+
+.About {
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin: 0;
+
+    padding: 100px 10%;
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    box-sizing: border-box;
+
+    text-align: left;
+
+    background-color: #4c53cf;
+
+    scroll-margin-top: 80px;
+}
+
+
+.About h1 {
+
+    font-family: "Archivo Black", sans-serif;
+
+    color: #ffffff;
+
+    line-height: 1.5;
+
+    margin: 0;
+
+    font-size: 70px;
+}
+
+
+.process {
+
+    font-family: "Cormorant Garamond", serif;
+
+    color: #B8B8B8;
+
+    letter-spacing: 4px;
+
+    font-size: 30px;
+
+    margin-bottom: 20px;
+}
+
+
+.myself {
+
+    color: #A5B4FC;
+
+    font-weight: 700;
+
+    font-size: 20px;
+
+    margin-top: 20px;
+}
+
+
+
+
+
+.service-section {
+
+    background-color: #484b8e;
+
+    padding: 110px 10% 120px;
+
+    box-sizing: border-box;
+}
+
+
+.service-title {
+
+    color: #D9DAFF;
+
+    font-family: "Cormorant Garamond", serif;
+
+    letter-spacing: 4px;
+
+    font-size: 15px;
+
+    margin: 0 0 35px 0;
+}
+
+
+.service {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 23px;
+}
+
+
+.service-item {
+    border-top: 1px solid #D9DAFF;
+    padding-top: 22px;
+}
+
+
+.service-item span {
+    color: #f6e553;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.service-item h4 {
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 23px;
+    margin: 25px 0;
+}
+
+
+.service-item h5 {
+    color: #D9DAFF;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+.selected-work {
+    background-color: #171761;
+    min-height: 100vh;
+    padding: 110px 10%;
+    box-sizing: border-box;
+    scroll-margin-top: 80px;
+}
+
+
+.selected-title {
+    color: #D9DAFF;
+    font-family: "Cormorant Garamond", serif;
+    letter-spacing: 4px;
+    font-size: 15px;
+    margin: 0 0 35px 0;
+}
+
+
+.selected-work h1 {
+    color: #ffffff;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 80px;
+    line-height: 1;
+    margin: 0 0 35px 0;
+}
+
+.selected-text {
+    color: #D9DAFF;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    max-width: 500px;
+}
+
+
+
+.contact {
+    background-color: #484b8e;
+    min-height: 80vh;
+    padding: 110px 10%;
+    box-sizing: border-box;
+    scroll-margin-top: 80px;
+}
+
+
+.contact-title {
+    color: #D9DAFF;
+    font-family: "Cormorant Garamond", serif;
+    letter-spacing: 4px;
+    font-size: 15px;
+    margin: 0 0 35px 0;
+}
+
+
+.contact h1 {
+    color: #D9DAFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 100px;
+    margin: 0 0 35px 0;
+}
+
+
+.contact-text {
+    color: #D9DAFF;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: 24px;
+}
+
+
+.contact-button {
+    display: inline-block;
+    background-color: #f6e553;
+    color: #171761;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+.contact-button:hover {
+    background-color: #D9DAFF;
+    color: #171761;
+}
+
+
+footer {
+
+    background-color: #171761;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+
+.footer-name {
+    color: #f6e553;
+    font-family: "Changa One", sans-serif;
+    font-size: larger;
+}
+
+
+.footer-middle {
+    color: #D9DAFF;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+.footer-copy {
+    color: #D9DAFF;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+@media ( max-width: 900px) {
+
+    .navbargroup{
+        padding: 20px 30px;
+    }
+
+    .ugly{
+        display:none;
+    }
+
+    .navlinks{
+        gap:20px;
+    }
+
+    .intro{
+        flex-direction: column;
+        gap: 0;
+        text-align: center;
+    }
+
+    .intro h1{
+        font-size: 110px;
+    }
+
+    .disgn{
+    font-size: 28px;
+    }
+
+    .About{
+        padding:80px 7%;
+    } 
+
+    .About h1{
+        font-size: 55px;
+    }
+
+    .service-section{
+        padding: 80px 7%;
+    }
+
+    .service{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .selected-work{
+        padding: 80px 7%;
+    }
+
+        .selected-work h1 {
+        font-size: 60px;
+    }
+
+    .contact {
+        padding: 80px 7%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+
+    .navbargroup {
+        height: auto;
+        padding: 15px 10px;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .title a {
+        font-size: 25px;
+    }
+
+    .ugly {
+        display: none;
+    }
+
+    .navlinks {
+        width: 100%;
+        justify-content: space-around;
+        gap: 5px;
+        font-size: 16px;
+    }
+
+    .home {
+        min-height: auto;
+        padding: 60px 15px 100px;
+        overflow: hidden;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        text-align: center;
+    }
+
+    .intro h1 {
+        font-size: 65px;
+        line-height: 0.9;
+        margin: 0;
+    }
+
+    .disgn {
+        font-size: 22px;
+        line-height: 1.4;
+        margin-top: 60px;
+    }
+
+
+    .About {
+        width: 100%;
+        min-height: auto;
+        padding: 70px 25px;
+        overflow: hidden;
+    }
+
+    .process {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .About h1 {
+        font-size: 32px;
+        line-height: 1.3;
+        overflow-wrap: break-word;
+    }
+
+    .myself {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+
+    /* SERVICES */
+
+    .service-section {
+        padding: 70px 25px;
+        overflow: hidden;
+    }
+
+    .service {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .service-item h4 {
+        font-size: 20px;
+    }
+
+
+    .selected-work {
+        min-height: auto;
+        padding: 70px 25px;
+        overflow: hidden;
+    }
+
+    .selected-work h1 {
+        font-size: 42px;
+        line-height: 1;
+    }
+
+    .selected-text {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+
+    .contact {
+        min-height: auto;
+        padding: 70px 25px;
+        overflow: hidden;
+    }
+
+    .contact h1 {
+        font-size: 45px;
+        line-height: 1;
+    }
+
+    .contact-text {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contact-button {
+        text-align: center;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        min-height: auto;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+}
